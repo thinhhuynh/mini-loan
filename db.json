@@ -1,0 +1,191 @@
+{
+  "loans": [
+    {
+      "id": 1,
+      "amount": 100,
+      "repayAmount": 24,
+      "paidAmount": 100,
+      "term": 3,
+      "customerName": "Jack Huynh(Myself)",
+      "status": "approved",
+      "createdAt": "2014-09-08T08:02:17-05:00",
+      "repaid": false,
+      "repayHistory": [
+        {
+          "repayAmount": 24,
+          "createdAt": "2019-08-07T23:19:14+08:00"
+        },
+        {
+          "repayAmount": 4,
+          "createdAt": "2019-08-08T00:36:12+08:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customerName": "John Tran Trung",
+      "amount": 99,
+      "repayAmount": 24,
+      "paidAmount": 0,
+      "term": "4",
+      "status": "denied",
+      "createdAt": "2014-09-08T08:02:17-05:00",
+      "repaid": false,
+      "repayHistory": []
+    },
+    {
+      "id": 3,
+      "customerName": "Henery Dang",
+      "amount": 1000,
+      "repayAmount": 14,
+      "paidAmount": 84,
+      "term": 3,
+      "status": "approved",
+      "createdAt": "2019-08-08T00:19:46+08:00",
+      "repaid": false,
+      "repayHistory": [
+        {
+          "repayAmount": 14,
+          "createdAt": "2019-08-07T12:51:41+07:00"
+        },
+        {
+          "repayAmount": 14,
+          "createdAt": "2019-08-07T12:53:32+07:00"
+        },
+        {
+          "repay_amount": 14,
+          "created_at": "2019-08-07T23:14:20+07:00"
+        }  
+      ],
+      "repay_history": [
+        {
+          "repayAmount": 14,
+          "createdAt": "2019-08-07T12:51:41+07:00"
+        },
+        {
+          "repayAmount": 14,
+          "createdAt": "2019-08-07T12:53:32+07:00"
+        },
+        {
+          "repay_amount": 14,
+          "created_at": "2019-08-07T23:12:52+07:00"
+        }
+      ],
+      "paid": 42
+    },
+    {
+      "id": 4,
+      "customerName": "Crystal Win",
+      "amount": 100,
+      "repayAmount": 25,
+      "paidAmount": 0,
+      "term": 4,
+      "status": "denied",
+      "createdAt": "2019-08-08T00:20:08+08:00",
+      "repaid": false,
+      "repayHistory": []
+    },
+    {
+      "id": 6,
+      "customerName": "Martin Yan",
+      "amount": 4500,
+      "repayAmount": 200,
+      "paidAmount": 0,
+      "term": 2,
+      "status": "approved",
+      "createdAt": "2019-08-08T00:32:07+08:00",
+      "repaid": false,
+      "repayHistory": []
+    },
+    {
+      "id": 7,
+      "customerName": "Philip Chishol",
+      "amount": 999,
+      "repayAmount": 34,
+      "paidAmount": 0,
+      "term": 4,
+      "status": "denied",
+      "createdAt": "2019-08-08T00:33:50+08:00",
+      "repaid": false,
+      "repayHistory": []
+    },
+    {
+      "id": 8,
+      "customerName": "David Semend",
+      "amount": 1234,
+      "repayAmount": 250,
+      "paidAmount": 500,
+      "term": 10,
+      "status": "approved",
+      "createdAt": "2019-08-08T00:34:40+08:00",
+      "repaid": false,
+      "repayHistory": [
+        {
+          "repayAmount": 250,
+          "createdAt": "2019-08-08T00:36:02+08:00"
+        },
+        {
+          "repayAmount": 250,
+          "createdAt": "2019-08-08T00:36:04+08:00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customerName": "Albert Howi",
+      "amount": 5000,
+      "repayAmount": 100,
+      "paidAmount": 0,
+      "term": 8,
+      "status": "denied",
+      "createdAt": "2019-08-08T00:35:09+08:00",
+      "repaid": false,
+      "repayHistory": []
+    },
+    {
+      "id": 10,
+      "customerName": "Ray Beckam",
+      "amount": 450,
+      "repayAmount": 23,
+      "paidAmount": 69,
+      "term": 7,
+      "status": "approved",
+      "createdAt": "2019-08-08T00:35:42+08:00",
+      "repaid": false,
+      "repayHistory": [
+        {
+          "repayAmount": 23,
+          "createdAt": "2019-08-08T00:36:52+08:00"
+        },
+        {
+          "repayAmount": 23,
+          "createdAt": "2019-08-08T00:37:02+08:00"
+        }
+      ]
+    },
+    {
+      "customerName": "Insert My Testing",
+      "amount": "1111",
+      "repayAmount": "11",
+      "paidAmount": 0,
+      "term": 1,
+      "status": "pending",
+      "createdAt": "2019-08-09T00:14:56+07:00",
+      "repaid": false,
+      "repayHistory": [],
+      "id": 11
+    },
+    {
+      "customerName": "aa",
+      "amount": "10",
+      "repayAmount": "10",
+      "paidAmount": 0,
+      "term": 1,
+      "status": "pending",
+      "createdAt": "2019-08-09T00:21:02+07:00",
+      "repaid": false,
+      "repayHistory": [],
+      "id": 12
+    }
+  ]
+}

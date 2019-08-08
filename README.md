@@ -1,13 +1,34 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Mini Loan Description
 
-In the project directory, you can run:
+Main functionalities of this project include:
+  - Loan management
+    - Add new loan
+    - Approve loans
+    - Deny loans
+    - Repay loans
+  - Repay history
 
-### `npm start`
+### Project Setup
+
+Clone the repo:
+```
+git clone https://github.com/thinhhuynh/mini-loan.git
+```
+
+Install dependencies and start:
+```sh
+cd mini-loan
+yarn add -g json-server
+yarn
+# start fake api at port 3000
+json-server --watch db.json
+yarn start
+```
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
